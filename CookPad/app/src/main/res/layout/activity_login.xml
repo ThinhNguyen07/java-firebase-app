@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.LoginActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tham gia Cookpad"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vui nấu mỗi ngày"
+        android:textSize="17dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/login_Facebook">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/round1"
+            android:gravity="center"
+            android:text="Kết nối với Facebook"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:src="@drawable/ic_facebook"
+            android:background="@drawable/round"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"/>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/login_Google">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:text="Kết nối với Google"
+            android:background="@drawable/round2"
+            android:textColor="@color/white"/>
+        <ImageView
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:src="@drawable/ic_google"
+            android:background="@drawable/round6"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"/>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:onClick="signup_Email">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:text="Đăng ký với email"
+            android:background="@drawable/round4"
+            android:textColor="@color/white"/>
+        <ImageView
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:src="@drawable/ic_mail"
+            android:background="@drawable/round3"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"/>
+    </FrameLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hoặc"
+        android:layout_margin="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:text="Đăng nhập với email"
+        android:background="@drawable/round5"
+        android:textColor="#4D4A4A"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="login_Email"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Khi đăng nhập tức là bạn đông ý với Điều Khoản Dịch Vụ và Chính Sách Bảo Mật Thông Tin của Cookpad"/>
+</LinearLayout>

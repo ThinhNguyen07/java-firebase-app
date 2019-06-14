@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:layout_margin="5dp"
+    android:orientation="horizontal"
+    android:weightSum="10">
+
+    <EditText
+        android:id="@+id/edt_Resources"
+        android:layout_width="0dp"
+        android:layout_weight="9"
+        android:textColor="#848484"
+        android:textColorHint="#848484"
+        android:layout_height="wrap_content"
+        android:hint="Bạn dùng nguyên liệu gì? Bao nhiêu ạ" />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_recycl_bin"
+            android:id="@+id/mRemove"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="AvailableLibraryUpdateStorage">
+    <library-updates>
+      <library-update>
+        <group-id>de.hdodenhof</group-id>
+        <name>circleimageview</name>
+        <version>3.0.0</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>appcompat-v7</name>
+        <version>28.0.0</version>
+        <repository>Google,Android Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>design</name>
+        <version>28.0.0</version>
+        <repository>Google,Android Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.firebase</group-id>
+        <name>firebase-auth</name>
+        <version>17.0.0</version>
+        <repository>Google,Google Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>cardview-v7</name>
+        <version>28.0.0</version>
+        <repository>Google,Android Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.github.bumptech.glide</group-id>
+        <name>glide</name>
+        <version>4.9.0</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.github.bumptech.glide</group-id>
+        <name>compiler</name>
+        <version>4.9.0</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.android.gms</group-id>
+        <name>play-services-auth</name>
+        <version>16.0.1</version>
+        <repository>Google,Google Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>support-v4</name>
+        <version>28.0.0</version>
+        <repository>Google,Android Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.firebase</group-id>
+        <name>firebase-storage</name>
+        <version>17.0.0</version>
+        <repository>Google,Google Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support.constraint</group-id>
+        <name>constraint-layout</name>
+        <version>2.0.0-beta1</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.firebase</group-id>
+        <name>firebase-database</name>
+        <version>17.0.0</version>
+        <repository>Google,Google Repository</repository>
+      </library-update>
+    </library-updates>
+    <last-search-timestamp>1559058399770</last-search-timestamp>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fce63fda-a678-4c20-b067-c85d3439da74" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/CookPad.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/appfood/appfood/android/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/appfood/appfood/lib/pages/home.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/appfood/appfood/lib/pages/setup/sign_in.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/appfood/appfood/lib/pages/setup/sign_up.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/appfood/appfood/lib/pages/setup/welcome.dart" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CookPad" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CookPad" type="f1a62948:ProjectNode" />
+                <item name="CookPad" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CookPad" type="f1a62948:ProjectNode" />
+                <item name="CookPad" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CookPad" type="f1a62948:ProjectNode" />
+                <item name="CookPad" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CookPad/local.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="yet_unknown" />
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="layoutResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>UpdateAvatarLayout</find>
+      <find>mRecyclerView_Resources</find>
+      <find>img_PictureUser</find>
+      <find>img_Image</find>
+    </findStrings>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="C:\Users\PhuocTai\Desktop\Homnayangi.jks" />
+    <option name="KEY_ALIAS" value="TaiNP6" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Adapter/ListResourcesAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Module/SeachAccount/AccountFilter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_search_title.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Adapter/SearchPagerAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Adapter/ListStepsCookingAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_image_viewer.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Fragment/Fragment_Search_Title.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_conversation.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_search_resources.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Fragment/Fragment_Search_Resources.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_house_tab1.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Interface/LoadSuccess.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Fragment/Fragment_House_Tab1.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Adapter/PostsAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/row_posts.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_conversation_you.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_conversation_me.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/row_conversation.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/row_receive_message.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/row_send_message.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Adapter/ConversationAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Module/ConversationManager/ConversationManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Module/ConversationManager/ConversationListener.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Adapter/EditStepsCookingAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_create_food.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_house_tab5.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Constant.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Utilities/Utilities.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_account_editor.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Module/SearchFilter/SearchFilter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/View/ImageViewerActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/View/AccountEditor.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/View/CommentActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/View/Conversation.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/View/CreateFood.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/View/DetailsPostsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/View/FilterAccountConversation.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/View/HouseActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/View/LoginEmail.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/View/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/View/SearchActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/View/SignupEmail.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Adapter/EditResourcesFoodAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/View/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/row_create_resources.xml" />
+        <option value="$PROJECT_DIR$/CookPad/local.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-15" />
+    <option name="width" value="1940" />
+    <option name="height" value="1060" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CookPad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CookPad" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CookPad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CookPad" type="462c0819:PsiDirectoryNode" />
+              <item name="CookPad" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExportApk.ApkPath" value="C:\Users\PhuocTai\Desktop\CookPad\app" />
+    <property name="ExportApk.BuildType" value="release" />
+    <property name="ExportApk.Flavors" value="" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="android.project.structure.last.selected" value="app" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="device.picker.selection" value="127.0.0.1:62001" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CookPad" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PhuocTai\Desktop\CookPad\app\src\main\res\drawable" />
+      <recent name="C:\Users\Admin\Desktop\CookPad\app\src\main\res\drawable" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="false" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sampled (Java)" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CookPad [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Android App.app" />
+      <item itemvalue="Gradle.CookPad [signingReport]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.CookPad [signingReport]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fce63fda-a678-4c20-b067-c85d3439da74" name="Default" comment="" />
+      <created>1558782364935</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558782364935</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536913" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Captures" order="6" side_tool="true" weight="0.25" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Resources Explorer" order="8" />
+      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3279743" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3279743" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Logcat" order="10" weight="0.50321543" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="right" id="Flutter Inspector" />
+      <window_info anchor="right" id="Flutter Outline" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" />
+      <window_info anchor="right" id="Assistant" order="5" weight="0.3290469" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.3290469" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Preview" order="9" weight="0.3290469" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Fragment/Fragment_House_Tab1.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_posts.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Adapter/PostsAdapter.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_conversation_you.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_conversation_me.xml" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d29fc47e58d43e6379cd2c12708ad85e/jars/classes.jar!/android/support/v7/widget/RecyclerView.class" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Module/ConversationManager/ConversationManager.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Module/ConversationManager/ConversationListener.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Module/ConversationManager/ChannelID.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_receive_message.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/CustomView/PickImageFromStorage.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_logo.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_logo1.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_logos.jpg" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_house_tab5.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Adapter/EditStepsCookingAdapter.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Constant.java" />
+    <entry file="file://$PROJECT_DIR$/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/app/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_conversation_list.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_send_message.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Utilities/Utilities.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_account_editor.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Adapter/CommentAdapter.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Adapter/ConversationAdapter.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Adapter/ConversationListAdapter.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Module/SearchFilter/SearchFilter.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/View/AccountEditor.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/View/CommentActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/View/SignupEmail.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/View/SearchActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/View/MainActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/View/LoginEmail.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/View/ImageViewerActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/View/HouseActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/View/FilterAccountConversation.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/View/Conversation.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Adapter/BookmarkAdapter.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_details_posts.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/View/DetailsPostsActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_create_food.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/Adapter/EditResourcesFoodAdapter.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/View/LoginActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_steps_cooking.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_resource.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_create_resources.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/doan/cookpad/View/CreateFood.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+    <entry file="file://$PROJECT_DIR$/CookPad/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

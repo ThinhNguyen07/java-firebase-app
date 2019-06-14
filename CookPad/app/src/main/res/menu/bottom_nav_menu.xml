@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tab1"
+        android:icon="@drawable/ic_house"
+        android:title="House" />
+
+    <item
+        android:id="@+id/tab2"
+        android:icon="@drawable/ic_bookmark"
+        android:title="Bookmark" />
+
+    <item
+        android:id="@+id/tab3"
+        android:icon="@drawable/ic_plus"
+        android:title="" />
+    <item
+        android:id="@+id/tab4"
+        android:icon="@drawable/ic_chat"
+        android:title="Conversation" />
+    <item
+        android:id="@+id/tab5"
+        android:icon="@drawable/ic_user"
+        android:title="Me" />
+</menu>

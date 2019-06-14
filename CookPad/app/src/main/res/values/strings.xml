@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CookPad</string>
+
+    // ID FB
+    <string name="facebook_app_id">599003083932360</string> <string name="fb_login_protocol_scheme">fb599003083932360</string>
+
+    <string name="title_activity_house">HouseActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
