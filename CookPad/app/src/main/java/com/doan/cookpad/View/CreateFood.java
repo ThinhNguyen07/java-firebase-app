@@ -10,6 +10,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.SwitchCompat;
 import android.support.v7.widget.Toolbar;
+import android.text.TextUtils;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
@@ -97,42 +98,52 @@ public class CreateFood extends AppCompatActivity {
         String KeyRandom = String.valueOf(System.currentTimeMillis());
         long currentTime = System.currentTimeMillis();
 
-        // Khởi tạo đối tượng tùy chỉnh
-        Posts posts = new Posts();
-        // Gán dữ liệu vào các trường của đối tượng
-        posts.setIdPosts(KeyRandom);
-        posts.setIdUser(account.getmID());
-        posts.setImage_Dish(ImageFood);
-        posts.setName_Dish(edt_NameFood.getText().toString());
-        posts.setWhen_Dish(edt_WhenFood.getText().toString());
-        posts.setNumber_PeopleEating(edt_PeopleEating.getText().toString());
-        posts.setSteps_Cooking(editStepsCookingAdapter.getListItem());
-        posts.setResources_Dish(editResourcesFoodAdapter.getListItem());
-        posts.setAllow_Comment(mSwitch_AllowComment.isChecked());
-        posts.setTime_Cooking(edt_TimeCooking.getText().toString());
-        posts.setTimeCreate(currentTime);
+        if (TextUtils.isEmpty(ImageFood)|
+                TextUtils.isEmpty(edt_NameFood.getText().toString())|
+                TextUtils.isEmpty(edt_WhenFood.getText().toString())|
+                TextUtils.isEmpty(edt_PeopleEating.getText().toString())|
+                TextUtils.isEmpty(edt_TimeCooking.getText().toString())|
+                editStepsCookingAdapter.getListItem().size()==0|
+                editResourcesFoodAdapter.getListItem().size()==0){
+            progressDialog.cancel();
+            Toast.makeText(this, "Vui lòng nhập đầy đủ thông tin", Toast.LENGTH_SHORT).show();
+        }else {
+            // Khởi tạo đối tượng tùy chỉnh
+            Posts posts = new Posts();
+            // Gán dữ liệu vào các trường của đối tượng
+            posts.setIdPosts(KeyRandom);
+            posts.setIdUser(account.getmID());
+            posts.setImage_Dish(ImageFood);
+            posts.setName_Dish(edt_NameFood.getText().toString());
+            posts.setWhen_Dish(edt_WhenFood.getText().toString());
+            posts.setNumber_PeopleEating(edt_PeopleEating.getText().toString());
+            posts.setSteps_Cooking(editStepsCookingAdapter.getListItem());
+            posts.setResources_Dish(editResourcesFoodAdapter.getListItem());
+            posts.setAllow_Comment(mSwitch_AllowComment.isChecked());
+            posts.setTime_Cooking(edt_TimeCooking.getText().toString());
+            posts.setTimeCreate(currentTime);
 
-        // Gửi bài viết lên Firebase Database
-        FirebaseDatabase.getInstance().getReference().child("Posts").child("TimeLine").child(KeyRandom).setValue(posts, new DatabaseReference.CompletionListener() {
-            @Override
-            public void onComplete(DatabaseError databaseError, DatabaseReference databaseReference) {
-                if (databaseError==null){
-                    progressDialog.cancel();
-                    Toast.makeText(CreateFood.this, "Đăng bài thành công", Toast.LENGTH_SHORT).show();
-                    finish();
-                }else {
-                    progressDialog.cancel();
-                    Toast.makeText(CreateFood.this, "Đăng bài thất bại", Toast.LENGTH_SHORT).show();
+            // Gửi bài viết lên Firebase Database
+            FirebaseDatabase.getInstance().getReference().child("Posts").child("TimeLine").child(KeyRandom).setValue(posts, new DatabaseReference.CompletionListener() {
+                @Override
+                public void onComplete(DatabaseError databaseError, DatabaseReference databaseReference) {
+                    if (databaseError==null){
+                        progressDialog.cancel();
+                        Toast.makeText(CreateFood.this, "Đăng bài thành công", Toast.LENGTH_SHORT).show();
+                        finish();
+                    }else {
+                        progressDialog.cancel();
+                        Toast.makeText(CreateFood.this, "Đăng bài thất bại", Toast.LENGTH_SHORT).show();
+                    }
                 }
-            }
-        });
+            });
+        }
     }
 
     // Lắng nghe sự kiện người dùng Click vào LAYOUT "Thêm nguyên liệu"
     public void addResources(View view){
         editResourcesFoodAdapter.addListItem();
     }
-
     // Lắng nghe sự kiện người dùng Click vào LAYOUT "Bước tiếp theo"
     public void addSteps(View view){
         editStepsCookingAdapter.addItem();

@@ -19,7 +19,6 @@ import com.doan.cookpad.Model.Account;
 import com.doan.cookpad.Module.SeachAccount.AccountFilter;
 import com.doan.cookpad.Module.SeachAccount.FilterAccount;
 import com.doan.cookpad.R;
-import com.doan.cookpad.SQLite.SQLite;
 
 import java.util.ArrayList;
 

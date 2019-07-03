@@ -371,7 +371,6 @@ public class Utilities {
                         FirebaseDatabase.getInstance().getReference().child("Posts").child("Liked").child(iDUser).child(iDPosts).setValue(false);
                     }
                     FirebaseDatabase.getInstance().getReference().child("Posts").child("Like").child(iDPosts).setValue(liked);
-
                 }
             }
             @Override

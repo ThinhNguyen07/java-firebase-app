@@ -8,6 +8,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SwitchCompat;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -92,25 +93,26 @@ public class SignupEmail extends AppCompatActivity {
                                             }
                                         });
                                     } else {
-                                        AlertDialog.Builder aleart = new AlertDialog.Builder(SignupEmail.this)
-                                                .setTitle("Không Thể Đăng Ký")
-                                                .setMessage("Tài khoản đã tồn tại. Vui lòng đăng nhập.")
-                                                .setPositiveButton("Thoát", new DialogInterface.OnClickListener() {
-                                                    @Override
-                                                    public void onClick(DialogInterface dialog, int which) {
-                                                        dialog.cancel();
-                                                    }
-                                                });
-                                        AlertDialog alertDialog = aleart.create();
-                                        alertDialog.show();
-                                        // Nếu người dùng tắt dialog thì sẽ chuyển đến màn hình đăng nhập bằng email
-                                        alertDialog.setOnCancelListener(new DialogInterface.OnCancelListener() {
-                                            @Override
-                                            public void onCancel(DialogInterface dialog) {
-                                                startActivity(new Intent(getApplicationContext(),LoginEmail.class));
-                                            }
-                                        });
-                                    }
+                                        Log.d("pppppppppppp",task.getException().toString());
+                                        String Error_Password = "com.google.firebase.auth.FirebaseAuthWeakPasswordException: The given password is invalid. [ Password should be at least 6 characters ]";
+                                        if (task.getException().toString().equals(Error_Password)){
+                                            Toast.makeText(SignupEmail.this, "Mật khẩu không hợp lệ. Phải có ít nhất 6 chữ số", Toast.LENGTH_SHORT).show();
+                                        }else {
+
+                                            AlertDialog.Builder aleart = new AlertDialog.Builder(SignupEmail.this)
+                                                    .setTitle("Không Thể Đăng Ký")
+                                                    .setMessage("Tài khoản đã tồn tại. Vui lòng đăng nhập.")
+                                                    .setPositiveButton("Thoát", new DialogInterface.OnClickListener() {
+                                                        @Override
+                                                        public void onClick(DialogInterface dialog, int which) {
+                                                            dialog.cancel();
+                                                        }
+                                                    });
+                                            AlertDialog alertDialog = aleart.create();
+                                            alertDialog.show();
+                                            // Nếu người dùng tắt dialog thì sẽ chuyển đến màn hình đăng nhập bằng email
+
+                                        }                                    }
                                 }
                             });
                 }

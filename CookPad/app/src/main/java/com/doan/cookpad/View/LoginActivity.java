@@ -62,7 +62,7 @@ public class LoginActivity extends AppCompatActivity {
         login_Check();
         login_Facebook();
         login_Google();
-//        getKeyHash();
+        getKeyHash();
     }
 
     public void login_Email(View view) {

@@ -13,7 +13,6 @@ import android.support.v7.app.AppCompatActivity;
 import com.doan.cookpad.Constant;
 import com.doan.cookpad.Model.Account;
 import com.doan.cookpad.R;
-import com.doan.cookpad.SQLite.SQLite;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;

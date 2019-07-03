@@ -57,10 +57,8 @@ public class BookmarkAdapter extends RecyclerView.Adapter<BookmarkAdapter.ViewHo
                     Glide.with(mContext).load(account.getmPicture()).override(120,120).into(viewHolder.img_PictureUser);
                 }
             }
-
             @Override
             public void Failure() {
-
             }
         });
         utilities.getPostListener(mListItem.get(position).getIdPosts(), new DetailsPosts() {

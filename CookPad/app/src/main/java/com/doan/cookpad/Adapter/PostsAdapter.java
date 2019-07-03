@@ -86,7 +86,6 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.ViewHolder> 
             }
             @Override
             public void Failure() {
-
             }
         });
         utilities.getLikeChangeListener(mListItem.get(position).getIdPosts(), new HandleLikePosts() {
@@ -96,7 +95,6 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.ViewHolder> 
             }
             @Override
             public void onFailure(String error) {
-
             }
         });
         utilities.getLikedListener(currentAccount.getmID(), mListItem.get(position).getIdPosts(), new GetLikedListener() {

@@ -79,8 +79,9 @@ public class EditStepsCookingAdapter extends RecyclerView.Adapter<EditStepsCooki
         viewHolder.img_DeleteSteps.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mListItem.remove(position);
-                setNewList(mListItem);
+                mListItem.remove(mListItem.get(position));
+                notifyItemRemoved(position);
+                notifyDataSetChanged();
             }
         });
     }
